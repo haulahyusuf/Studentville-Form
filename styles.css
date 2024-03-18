@@ -1,0 +1,71 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    background-color: #f2f2f2;
+}
+
+main{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: rgba(64, 224, 208, 0.5);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+footer {
+    background-color: rgba(64, 224, 208, 0.5);
+    padding: 8px;
+    border-radius: 16px;
+}
+
+button {
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    background-color: grey;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
